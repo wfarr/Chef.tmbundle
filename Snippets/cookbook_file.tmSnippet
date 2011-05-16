@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>cookbook_file "${1:/path/to/file}" do
+  source "${2:path/to/file}"
+  mode "0644"
+  owner "${3:rails}"
+  action :create
+end</string>
+	<key>name</key>
+	<string>cookbook_file</string>
+	<key>scope</key>
+	<string>source.ruby.chef</string>
+	<key>tabTrigger</key>
+	<string>cook</string>
+	<key>uuid</key>
+	<string>2CB94532-34C2-4654-8B44-E4A1D6817739</string>
+</dict>
+</plist>

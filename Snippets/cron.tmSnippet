@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>cron "${1:name}" do
+  command "${2:/bin/true}"
+  hour "${3:5}"
+  minute "${4:0}"
+end</string>
+	<key>name</key>
+	<string>cron</string>
+	<key>scope</key>
+	<string>source.ruby.chef</string>
+	<key>tabTrigger</key>
+	<string>cron</string>
+	<key>uuid</key>
+	<string>0F41593F-33D3-44B8-9844-910F06D81B40</string>
+</dict>
+</plist>
